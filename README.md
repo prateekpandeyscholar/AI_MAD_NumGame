@@ -12,10 +12,10 @@
 For example, the performance array at the start of your app will be like [-1, -1, -1, -1, -1, -1], but after the completion of three matches let the
 score array be like [1, 0, 1] then the performance array would be like [-1, -1, -1, -1, -1, 2]. Each time the performance array will be updated, the new value will
 be added at the last element of the array, and all previous values will be shifted one place left. The first value will be lost, as we have to analyze the performance
-  of the last six gammes only. </li>
+  of the last six games only. </li>
   
   <li>The performance array will be stored in a SharedPreferences object. The SharedPreferences object is fetched at the start of the activity and an
-    alert dialog is presetned to the user suggesting on his or her performance based on the last six games. </li>
+    alert dialog is presented to the user suggesting on his or her performance based on the last six games. </li>
 
   <li><b>sumOfScore</b> method should summing up the values of score array.</li>
 
